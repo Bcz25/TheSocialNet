@@ -11,10 +11,12 @@ This is a fully functional backend built for a social networking website utilizi
 
 <a name="install"></a>
 ## Installation
-clone the clode<br>Run npm i && npm run seed && npm start
+Clone the clode<br>Run npm i && npm run seed && npm start
 
 <a name="use"></a>
 ## Usage
+https://github.com/user-attachments/assets/14680ab5-2089-40d6-b9f7-04ea616b218b
+
 
 <a name="contributing"></a>
 ## Contributing
