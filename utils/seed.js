@@ -18,7 +18,7 @@ connection.once('open', async () => {
     // Adjust thoughts to include user _id references
     const adjustedThoughts = thoughts.map(thought => ({
         ...thought,
-        username: [userMap.get(thought.username)] // Adjust to use ObjectId
+        username: [userMap.get(thought.username)]
         // Optionally add reactions here if needed
     }));
 

@@ -55,7 +55,6 @@ module.exports = {
     async deleteThought(req, res) {
         try {
             const thoughtId = req.params.thoughtId;
-            // Assuming you have a way to identify the user (e.g., userId in params or session); 
     
             // Delete the thought
             const thought = await Thought.findById({ _id: thoughtId });
